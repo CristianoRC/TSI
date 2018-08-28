@@ -22,8 +22,6 @@ void main()
     {
         if (x > 0)
         {
-            //1º e 4º
-
             if (y > 0)
                 printf("I\n");
             else
