@@ -67,7 +67,7 @@ void main()
         if (chaves[i] != 0)
         {
 
-            printf("%d aparece %d vez(es)", chaves[i], acumuladores[i]);
+            printf("%d aparece %d vez(es)\n", chaves[i], acumuladores[i]);
         }
     }
 }
