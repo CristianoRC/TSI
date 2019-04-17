@@ -39,7 +39,7 @@ int enfileirar(Fila *fila, Nodo dado)
 
 int desenfileirar(Fila *fila, Nodo *dadoRemovido)
 {
-    if(fila->re ==-1)
+    if(fila->re < fila->frente)
     return FILA_VAZIA;
 
     dadoRemovido->id = fila->dados[fila->frente].id;
